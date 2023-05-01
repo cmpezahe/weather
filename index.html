@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <div class="container">
+        <h1 class="app__title">Weather App</h1>
+        <form>
+            <div class="search-bar-container active">
+                <img src="https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/magnifier-512.png"
+                    alt="magnifier" class="magnifier" />
+                <input type="text" id="city-input" class="input" placeholder="Enter City" autocomplete="off" />
+            </div>
+            <input type="submit" value="Get Weather" />
+
+        </form>
+        <div id="weather-data">
+            <h1 class="weather__city"></h1>
+            <div class="weather__datetime"></div>
+            <div class="icon">
+                <img src="/images/lg.png" alt="" ">
+        
+        </div>
+        <div class=" temperature">
+            </div>
+            <div class="description"></div>
+            <div class="details">
+                <!-- <div>Feels like: 23°C</div>
+                <div>Humidity: 40%</div>
+                <div>Wind speed: 5 m/s</div> -->
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous">
+    </script>
+    <script src="app.js"></script>
+    <script src="btn.js"></script>
+</body>
+
+</html>
